@@ -5,6 +5,9 @@
 *.tfstate
 *.tfstate.*
 
+# Ignore Hcl
+*.hcl
+
 # Ignore override files as they are used to modify the resources that Terraform is managing
 override.tf
 override.tf.json
