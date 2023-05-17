@@ -34,3 +34,9 @@ output "for_each_instance_triggers" {
   value = { for k, v in null_resource.example_for_each : k => v.triggers }
   description = "The triggers of the example instances created with for_each."
 }
+
+
+
+variable "my_list" {
+    default = ["a", "b", "c"]
+}
